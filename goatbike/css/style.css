@@ -277,17 +277,25 @@ span, a, a:hover {
           transition-delay: .2s;
 }
 
+.butn-wsp {
+  background-color: #0ea158;
+  border-color: transparent;
+  color: #fff;
+  -webkit-box-shadow: 0px 10px 30px rgba(113, 70, 243, 0.4);
+          box-shadow: 0px 10px 30px rgba(113, 70, 243, 0.4);
+}
+.butn-wsp:hover span {
+  color: #0ea158;
+}
 .butn-bg {
-  background: #0ea158;
-  background: -webkit-gradient(linear, left top, right top, from(#52a4de), to(#0ea158));
-  background: linear-gradient(to right, #52a4de, #0ea158);
+  background: #52a4de;
   border-color: transparent;
   color: #fff;
   -webkit-box-shadow: 0px 10px 30px rgba(113, 70, 243, 0.4);
           box-shadow: 0px 10px 30px rgba(113, 70, 243, 0.4);
 }
 .butn-bg:hover span {
-  color: #0ea158;
+  color: #52a4de;
 }
 
 .butn-light {
